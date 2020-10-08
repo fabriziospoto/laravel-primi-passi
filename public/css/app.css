@@ -40,21 +40,28 @@ header nav ul a {
 
 main {
   background-color: beige;
+  padding-bottom: 100px;
 }
 
-main h2 {
+main .title h2 {
   width: 100%;
+  padding-top: 80px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 main .box {
-  width: 75%;
+  width: 70%;
   height: 100%;
   margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 main .box .card {
   width: 30%;
+  margin-right: 30px;
 }
 
 main .box .card img {

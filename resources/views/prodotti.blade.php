@@ -158,7 +158,9 @@ foreach ($cards as $card) {  // ciclo foreach con tre condizioni per far scorrer
         @include('partials.header') {{--includo header --}}
 
         <main>
-            <h2>Lunghe</h2>
+            <div class="title">
+                <h2>Lunghe</h2>
+            </div>
             <div class="box">  {{-- foreach per riportare titolo e immagine--}}
                 @foreach ($lunghe as $card)
                     <div class="card">
@@ -168,9 +170,10 @@ foreach ($cards as $card) {  // ciclo foreach con tre condizioni per far scorrer
                 @endforeach
             </div>
 
-
-            <h2>Corte</h2>  {{-- foreach per riportare titolo e immagine--}}
-            <div class="box">
+            <div class="title">
+                <h2>Corte</h2>
+            </div>
+            <div class="box">   {{-- foreach per riportare titolo e immagine--}}
                 @foreach ($corte as $card)
                     <div class="card">
                         <h3>{{ $card['titolo'] }}</h3>
@@ -179,9 +182,10 @@ foreach ($cards as $card) {  // ciclo foreach con tre condizioni per far scorrer
                 @endforeach
             </div>
 
-
-            <h2>Cortissime</h2>   {{-- foreach per riportare titolo e immagine--}}
-            <div class="box">
+            <div class="title">
+                <h2>Cortissime</h2>
+            </div>
+            <div class="box">  {{-- foreach per riportare titolo e immagine--}}
                 @foreach ($cortissime as $card)
                     <div class="card">
                         <h3>{{ $card['titolo'] }}</h3>
