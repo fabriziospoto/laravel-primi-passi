@@ -139,25 +139,14 @@ foreach ($cards as $card) {  // ciclo foreach con tre condizioni per far scorrer
     }
 }
 
-
 // dd($lunghe,$corte,$cortissime); //dd() per verifica
-
 @endphp
 
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap" rel="stylesheet">
-        <title>La Molisana</title>
-    </head>
-    <body>
+    @extends('layout.app')
 
-        @include('partials.header') {{--includo header --}}
+    @section('titolo','Prodotti')
 
-        <main>
+    @section('main')
             <div class="title">
                 <h2>Lunghe</h2>
             </div>
@@ -193,8 +182,4 @@ foreach ($cards as $card) {  // ciclo foreach con tre condizioni per far scorrer
                     </div>
                 @endforeach
             </div>
-
-        </main>
-
-    </body>
-</html>
+    @endsection

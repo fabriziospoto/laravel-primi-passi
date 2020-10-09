@@ -39,9 +39,9 @@ header nav ul a {
 }
 
 main {
-  background-image: url(/images/pastapattern.jpg?49af7424f8ad351c564375edbf7a736b);
+  background-image: url(/images/pastapattern3.jpg?07ecd49a85a849fe1a139d6e141f73d9);
+  background-size: 28%;
   background-repeat: repeat;
-  padding-bottom: 100px;
 }
 
 main .title h2 {
@@ -72,5 +72,74 @@ main .box .card img {
 
 main .box .card img:hover {
   transform: scale(1.2);
+}
+
+.footer-box {
+  width: 100%;
+  height: 250px;
+  background-image: url(/images/montagne.jpg?39c1e52a543a8880747e4f75c7d0800e);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.footer-box .f-container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.footer-box .f-container .f-box {
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-box .f-container .f-box p a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.contact {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .box-contatti {
+  width: 400px;
+  background-color: white;
+  text-align: center;
+  border-radius: 15px;
+  padding: 100px 0;
+}
+
+.contact .box-contatti p {
+  font-size: 15px;
+}
+
+.jumbotron {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.jumbotron h1 {
+  color: #002d75;
+  font-family: "Parisienne", cursive;
+  font-size: 150px;
+}
+
+.jumbotron p {
+  font-size: 50px;
+  color: #002d75;
 }
 

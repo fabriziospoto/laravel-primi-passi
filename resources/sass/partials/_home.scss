@@ -1,0 +1,23 @@
+.jumbotron {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+        // color: #90c0e6;
+        // color: black;
+        color: #002d75;
+        // font-family: 'Yesteryear', cursive;
+        font-family: 'Parisienne', cursive;
+        font-size: 150px;
+    }
+    p {
+        font-size: 50px;
+        // color: #90c0e6;
+        // color: black;
+        color: #002d75;
+    }
+
+}
